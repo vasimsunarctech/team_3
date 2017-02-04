@@ -22,3 +22,8 @@ Step 13: TO move head to new branch 	git checkout branch_name
 Step 14: To push on a branch git push origin branch_name
 Step 15: First checkout to parent branch and then apply
 step 16: To merge data between branches 	git merge branchname
+Step 17: to delete any branch 	git branch -d branchname
+Step 18: to show recent commit: 	git show --name-only
+Step 19: Create a tag in git	git tag -a v1.2 -m "Message" FIRSTSEVENDIGITSOFCOMMITID
+step20: TO show the tags 	git tag
+Step21: To push tag 	git push origin v1.2
