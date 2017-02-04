@@ -1,25 +1,32 @@
-<?php 
-abstract class parentTest
+
+<?php
+abstract class AbstractClass
 {
-	abstract protected function f1();
-	abstract public function f2();
-	//abstract private function f3(); //this will trhow error
-}
-class childTest
-{
-	public function f1()
-	{
-		//body of your function
-	}
-	public function f2()
-	{
-		//body of your function
-	}
-	protected function f3()
-	{
-		//body of your function
-	}
+    // Force Extending class to define this method
+    abstract protected function getValue();
+    abstract protected function prefixValue($prefix);
+
+    // Common method
+    public function printOut() {
+        print $this->getValue() . "\n";
+    }
 }
 
-$a = new childTest();
+class ConcreteClass1 extends AbstractClass
+{
+    protected function getValue() {
+        return "ConcreteClass1";
+    }
+
+    public function prefixValue($prefix) {
+        return "{$prefix}ConcreteClass1";
+    }
+}
+
+
+$class1 = new ConcreteClass1;
+$class1->printOut();
+echo $class1->prefixValue('FOO_') ."\n";
+
+
 ?>
