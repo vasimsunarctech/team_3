@@ -1,9 +1,11 @@
-<?php echo "this is git training for team 3"; ?>
-<?php echo "this is git training for onestop"; ?>
-<?php if($workingfine)
+<?php 
+abstract class parentTest
 {
-	echo "This is working fine";
+	abstract protected function f1();
+	abstract public function f2();
+	//abstract private function f3(); //this will trhow error
 }
+
 
 
 abstract class TeamD
@@ -32,4 +34,23 @@ class Team3 extends TeamD
         return parent::Describe() . ", and I'm a!";    
     }
 }
+
+class childTest
+{
+	public function f1()
+	{
+		//body of your function
+	}
+	public function f2()
+	{
+		//body of your function
+	}
+	protected function f3()
+	{
+		//body of your function
+	}
+}
+
+$a = new childTest();
+
 ?>
