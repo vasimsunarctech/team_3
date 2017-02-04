@@ -10,4 +10,4 @@ Step 4: git add->
 	git add .	(Add Even if permission errors)
 	or 
 	git add filename.extension	(Add file with any extension)
-step 5: git commit -m "COMMENTS"
+
