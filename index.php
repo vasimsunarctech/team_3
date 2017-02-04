@@ -1,4 +1,4 @@
-
+//comment 1
 <?php
 abstract class AbstractClass
 {
