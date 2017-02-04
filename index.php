@@ -1,5 +1,6 @@
-//comment 1
+<?php echo "hi"; ?>
 <?php
+
 abstract class AbstractClass
 {
     // Force Extending class to define this method
@@ -12,9 +13,9 @@ abstract class AbstractClass
     }
 }
 
-<<<<<<< HEAD
+
 class ConcreteClass1 extends AbstractClass
-=======
+
 
 
 abstract class TeamD
@@ -45,7 +46,7 @@ class Team3 extends TeamD
 }
 
 class childTest
->>>>>>> 06477614b6cc1e7a779f70230a9586bb3277a3ff
+
 {
     protected function getValue() {
         return "ConcreteClass1";
@@ -56,7 +57,7 @@ class childTest
     }
 }
 
-<<<<<<< HEAD
+
 
 $class1 = new ConcreteClass1;
 $class1->printOut();
@@ -64,8 +65,8 @@ echo $class1->prefixValue('FOO_') ."\n";
 
 
 ?>
-=======
+
 $a = new childTest();
 
 ?>
->>>>>>> 06477614b6cc1e7a779f70230a9586bb3277a3ff
+
