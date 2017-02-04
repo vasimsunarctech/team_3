@@ -12,7 +12,40 @@ abstract class AbstractClass
     }
 }
 
+<<<<<<< HEAD
 class ConcreteClass1 extends AbstractClass
+=======
+
+
+abstract class TeamD
+{
+    public $name;
+    public $age;
+    
+    public function Describe()
+    {
+        return $this->name . ", " . $this->age . " years old";    
+    }
+    
+    abstract public function Greet();
+}
+
+
+class Team3 extends TeamD
+{
+    public function Greet()
+    {
+        return "Woof!";    
+    }
+    
+    public function Describe()
+    {
+        return parent::Describe() . ", and I'm a!";    
+    }
+}
+
+class childTest
+>>>>>>> 06477614b6cc1e7a779f70230a9586bb3277a3ff
 {
     protected function getValue() {
         return "ConcreteClass1";
@@ -23,6 +56,7 @@ class ConcreteClass1 extends AbstractClass
     }
 }
 
+<<<<<<< HEAD
 
 $class1 = new ConcreteClass1;
 $class1->printOut();
@@ -30,3 +64,8 @@ echo $class1->prefixValue('FOO_') ."\n";
 
 
 ?>
+=======
+$a = new childTest();
+
+?>
+>>>>>>> 06477614b6cc1e7a779f70230a9586bb3277a3ff
