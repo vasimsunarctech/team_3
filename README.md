@@ -15,4 +15,4 @@ step 6: to show all commits 	git  show
 step 7:  To push   git push
 step 8: To show the commit log		git log
 Step 9: TO show the origin	git remote
-Step 10:  
+Step 10: To Pull   git pull 
