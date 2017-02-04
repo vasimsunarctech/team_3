@@ -1,2 +1,0 @@
-from onestop team
-GIt commit here.
