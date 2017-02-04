@@ -11,3 +11,4 @@ Step 4: git add->
 	or 
 	git add filename.extension	(Add file with any extension)
 step 5: git commit -m "COMMENTS"
+step 6: to show all commits 	git  show
