@@ -15,4 +15,7 @@ step 6: to show all commits 	git  show
 step 7:  To push   git push
 step 8: To show the commit log		git log
 Step 9: TO show the origin	git remote
-Step 10: To Pull   git pull 
+Step 10: To Pull   git pull
+step 11:  Branch   git branch branch_name
+step 12: To show all brnach git branch
+Step 13: TO move head to new branch 	git checkout branch_name
