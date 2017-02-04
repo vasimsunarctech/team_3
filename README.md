@@ -13,4 +13,6 @@ Step 4: git add->
 step 5: git commit -m "COMMENTS"
 step 6: to show all commits 	git  show
 step 7:  To push   git push
-step 8 : to show the commit log		git log
+step 8: To show the commit log		git log
+Step 9: TO show the origin	git remote
+Step 10:  
